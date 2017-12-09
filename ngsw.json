@@ -63,13 +63,6 @@
         "/assets/img/SVG/select-arrows.svg"
       ],
       "patterns": []
-    },
-    {
-      "name": "external",
-      "installMode": "lazy",
-      "updateMode": "prefetch",
-      "urls": [],
-      "patterns": []
     }
   ],
   "dataGroups": [
