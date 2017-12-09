@@ -12,7 +12,7 @@
         "/inline.73178a570b4548481556.bundle.js",
         "/main.8bfa83cea6dfd86ddaf3.bundle.js",
         "/polyfills.e045b3d4066c5fa0879d.bundle.js",
-        "/styles.36cb2b7aed24c3c0e274.bundle.css"
+        "/styles.32db38f14b1156a6db71.bundle.css"
       ],
       "patterns": [
         "https:\\/\\/fonts\\.googleapis\\.com\\/css\\?family=Lato:100,300,400,700,900"
@@ -65,20 +65,7 @@
       "patterns": []
     }
   ],
-  "dataGroups": [
-    {
-      "name": "api-performance",
-      "patterns": [
-        "https:\\/\\/restcountries\\.eu\\/rest",
-        "https:\\/\\/restcountries\\.eu\\/data"
-      ],
-      "strategy": "performance",
-      "maxSize": 300,
-      "maxAge": 259200000,
-      "timeoutMs": 60000,
-      "version": 1
-    }
-  ],
+  "dataGroups": [],
   "hashTable": {
     "/inline.73178a570b4548481556.bundle.js": "f7e93744154f6c9577f2a7106b3cc55abc8dcf73",
     "/assets/data/countries.json": "5c56d5f64b84365a3ca86d4172f338eeee91c4af",
@@ -86,11 +73,11 @@
     "/assets/i18n/de.json": "723b686770fde47f406befb15d4e272d1dea07fa",
     "/polyfills.e045b3d4066c5fa0879d.bundle.js": "317db21b920ce45f47fd46909fa5acdaaa521ead",
     "/assets/i18n/en-US.json": "21c73d431a93d0ab5b1187ec6de28e0873cc9712",
-    "/styles.36cb2b7aed24c3c0e274.bundle.css": "251797c4a7b79922294ac930ad9e28722ab4dc78",
+    "/styles.32db38f14b1156a6db71.bundle.css": "b9a0d5ecc386a5314c03b6268866a6f16fcadcef",
     "/assets/i18n/en.json": "09fb0ec5d2a4aed035fc1d9ae86d79ec71ae1bc6",
     "/favicon.ico": "6f1017b6ba45ff41a65fa60a4fc30589eda770f2",
     "/assets/img/sprite.svg": "0a81b63d0568059c6ffa6473f9140efd9472c2d0",
-    "/index.html": "ad2125708e396307140e2cff93d95bc6be44fecd",
+    "/index.html": "25440f0c169372ee50f5b2c8026786c9d3e25207",
     "/assets/img/icons/android-chrome-192x192.png": "3ac169e8fdb23f0c457f250e18113056c5380e31",
     "/assets/img/icons/android-chrome-256x256.png": "f2264623ed0597b8c32ea2765b0b1ea56c18405f",
     "/assets/img/icons/android-icon-144x144.png": "6f80620c56a75a7f0450baa7aa9b3071abac89d3",
