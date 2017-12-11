@@ -1,0 +1,112 @@
+{
+  "configVersion": 1,
+  "index": "/index.html",
+  "assetGroups": [
+    {
+      "name": "app",
+      "installMode": "prefetch",
+      "updateMode": "prefetch",
+      "urls": [
+        "/favicon.ico",
+        "/index.html",
+        "/assets/i18n/de.json",
+        "/assets/i18n/en.json",
+        "/assets/img/sprite.svg",
+        "/inline.fa1d8d29bb83bf4c4e88.bundle.js",
+        "/main.792cedcdf905b1c6def9.bundle.js",
+        "/polyfills.e045b3d4066c5fa0879d.bundle.js",
+        "/styles.ed6a3c64a3580cd103f6.bundle.css"
+      ],
+      "patterns": []
+    },
+    {
+      "name": "assets",
+      "installMode": "lazy",
+      "updateMode": "prefetch",
+      "urls": [
+        "/assets/img/icons/android-chrome-192x192.png",
+        "/assets/img/icons/android-chrome-256x256.png",
+        "/assets/img/icons/android-icon-144x144.png",
+        "/assets/img/icons/android-icon-192x192.png",
+        "/assets/img/icons/android-icon-36x36.png",
+        "/assets/img/icons/android-icon-48x48.png",
+        "/assets/img/icons/android-icon-72x72.png",
+        "/assets/img/icons/android-icon-96x96.png",
+        "/assets/img/icons/app-icon-512x512.png",
+        "/assets/img/icons/apple-icon-114x114.png",
+        "/assets/img/icons/apple-icon-120x120.png",
+        "/assets/img/icons/apple-icon-144x144.png",
+        "/assets/img/icons/apple-icon-152x152.png",
+        "/assets/img/icons/apple-icon-180x180.png",
+        "/assets/img/icons/apple-icon-57x57.png",
+        "/assets/img/icons/apple-icon-60x60.png",
+        "/assets/img/icons/apple-icon-72x72.png",
+        "/assets/img/icons/apple-icon-76x76.png",
+        "/assets/img/icons/ms-icon-144x144.png",
+        "/assets/img/icons/ms-icon-150x150.png",
+        "/assets/img/icons/ms-icon-310x310.png",
+        "/assets/img/icons/ms-icon-70x70.png"
+      ],
+      "patterns": [
+        "https:\\/\\/fonts\\.googleapis\\.com\\/css\\?family=Lato:100,300,400,700,900"
+      ]
+    }
+  ],
+  "dataGroups": [
+    {
+      "name": "countries",
+      "patterns": [
+        "https:\\/\\/restcountries\\.eu\\/rest\\/.*"
+      ],
+      "strategy": "performance",
+      "maxSize": "10",
+      "maxAge": 86400000,
+      "timeoutMs": 3000,
+      "version": 1
+    },
+    {
+      "name": "flags",
+      "patterns": [
+        "https:\\/\\/restcountries\\.eu\\/data\\/.*"
+      ],
+      "strategy": "performance",
+      "maxSize": "300",
+      "maxAge": 864000000,
+      "timeoutMs": 3000,
+      "version": 1
+    }
+  ],
+  "hashTable": {
+    "/inline.fa1d8d29bb83bf4c4e88.bundle.js": "7d2f11bb68cac61868ef81df25c221f2227e17cd",
+    "/assets/img/icons/android-chrome-192x192.png": "3ac169e8fdb23f0c457f250e18113056c5380e31",
+    "/main.792cedcdf905b1c6def9.bundle.js": "ac4bb680b1fe7f71b371c6807441c5ce1839ca30",
+    "/assets/img/icons/android-chrome-256x256.png": "f2264623ed0597b8c32ea2765b0b1ea56c18405f",
+    "/polyfills.e045b3d4066c5fa0879d.bundle.js": "317db21b920ce45f47fd46909fa5acdaaa521ead",
+    "/assets/img/icons/android-icon-144x144.png": "6f80620c56a75a7f0450baa7aa9b3071abac89d3",
+    "/styles.ed6a3c64a3580cd103f6.bundle.css": "25c4034ddc45fd6fa375812b0bafb343f0c75608",
+    "/assets/img/icons/android-icon-192x192.png": "edbcf393201a14968049c868a147ab25ca763837",
+    "/favicon.ico": "6f1017b6ba45ff41a65fa60a4fc30589eda770f2",
+    "/assets/img/icons/android-icon-36x36.png": "528db0663ddbab869d4ad1caffe4f1b062688e49",
+    "/index.html": "dc83b5fccdaae230238dcb8200f59eab0981e69b",
+    "/assets/img/icons/android-icon-48x48.png": "66c7e4aa88451a0289884dd44fc1e31582e4d3d2",
+    "/assets/i18n/de.json": "1f5508e7b3b3ea0bd5f56e3f72ca0b2733801e75",
+    "/assets/img/icons/android-icon-72x72.png": "29a1e642978a670d1b3d263435c40cbbd45b6241",
+    "/assets/i18n/en.json": "09fb0ec5d2a4aed035fc1d9ae86d79ec71ae1bc6",
+    "/assets/img/icons/android-icon-96x96.png": "069d009e76577b493e322e56bdd98db0025b8b6b",
+    "/assets/img/sprite.svg": "0a81b63d0568059c6ffa6473f9140efd9472c2d0",
+    "/assets/img/icons/app-icon-512x512.png": "0e1747e8f7574d7f904179579a72c24281243c7a",
+    "/assets/img/icons/apple-icon-114x114.png": "53ac2d4a35e0c219d8491b11809abc627c128d00",
+    "/assets/img/icons/apple-icon-120x120.png": "8bbb7020699e038784dab89012bc774fdbf93c8d",
+    "/assets/img/icons/apple-icon-144x144.png": "6f80620c56a75a7f0450baa7aa9b3071abac89d3",
+    "/assets/img/icons/apple-icon-152x152.png": "c61841f832659de8572c5b30a107bde0cc335d57",
+    "/assets/img/icons/apple-icon-180x180.png": "d17b2da5632eb0514205a235287fede05be63713",
+    "/assets/img/icons/apple-icon-57x57.png": "9b027fc08c17eb6d032b4d485e8bad1d8f29df13",
+    "/assets/img/icons/apple-icon-60x60.png": "9c6c313308c34b4453a5bc915a10e26b2c7a3edc",
+    "/assets/img/icons/apple-icon-72x72.png": "29a1e642978a670d1b3d263435c40cbbd45b6241",
+    "/assets/img/icons/apple-icon-76x76.png": "6a4488b220f6c6deb2129b1f0b31a5bacd3e5a3c",
+    "/assets/img/icons/ms-icon-144x144.png": "6f80620c56a75a7f0450baa7aa9b3071abac89d3",
+    "/assets/img/icons/ms-icon-150x150.png": "0cea85f9c55d7a4378badc53da0668368ff882f9",
+    "/assets/img/icons/ms-icon-310x310.png": "aa4a93050f4eca5ee20a009b5bab002c73b3f72a",
+    "/assets/img/icons/ms-icon-70x70.png": "9631dd815db32aa6d749084290ac175625702c35"
+  }
+}
